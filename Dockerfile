@@ -20,6 +20,4 @@ RUN kubectl krew install edit-status
 
 FROM vcluster
 
-LABEL version="1.0.0"
-LABEL description="VCluster CLI"
 USER 1001
