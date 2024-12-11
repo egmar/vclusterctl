@@ -2,6 +2,7 @@
 
 # This script is used to suspend and resume virtual clusters.
 # Usage: vclusterctl.sh [suspend|resume|set-state] <cluster_name> [state]
+# TODO: Improve script
 
 suspend() {
     echo "Suspending cluster $1"
